@@ -1,0 +1,12 @@
+[postgres]
+host = "localhost"
+port = 5432
+user = "postgres"
+password = "root"
+db_name = "rust"
+[redis]
+host = "localhost"
+port = 6379
+db = 0
+[jwt]
+secret = "SECRET_KEY" # Use for signing JWTs
